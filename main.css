@@ -7,6 +7,9 @@ body {
   }
   
   /* DEMO-SPECIFIC STYLES */
+  .typewriter {
+        display:block;
+  }
   .typewriter h1 {
     color: #fff;
     font-family: monospace;
@@ -30,4 +33,10 @@ body {
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
+  }
+
+
+
+  .about-me {
+    display: block;
   }
